@@ -1,0 +1,26 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: yelsquare_development
+  pool: 5
+  username: rails_user
+  password: mint06
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: yelsquare_test
+  pool: 5
+  username: rails_user
+  password: mint06
+
+production:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: yelsquare_production
+  pool: 5
+  username: rails_user
+  password: mint06 
